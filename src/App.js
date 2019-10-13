@@ -5,8 +5,8 @@ import AuthPage from './pages/AuthPage';
 import React from 'react';
 import componentQueries from 'react-component-queries';
 import { BrowserRouter, Redirect, Route, Switch } from 'react-router-dom';
-import './styles/reduction.scss';
-import {ToastContainer, toast} from "react-toastify";
+import './styles/reduction.css';
+import {ToastContainer} from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
 
 import PlaylistsContainer from "./containers/PlaylistsContainer";
