@@ -2,7 +2,7 @@ import * as types from '../constants/AudioActionTypes'
 import axios from 'axios';
 import {toast} from "react-toastify";
 
-const apiUrl = "http://localhost:5200/api/audio";
+const apiUrl = "https://jdl-nodejs.herokuapp.com/api/audio";
 
 export const fetchAllAudioDB = () => {
     return (dispatch) => {

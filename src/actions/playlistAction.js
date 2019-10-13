@@ -2,7 +2,7 @@ import * as types from '../constants/PlaylistActionTypes'
 import axios from 'axios';
 import {toast} from "react-toastify";
 
-const apiUrl = "http://localhost:5200/api/playlist";
+const apiUrl = "https://jdl-nodejs.herokuapp.com/api/playlist";
 
 export const fetchAllPlaylistsDB = () => {
     return (dispatch) => {
